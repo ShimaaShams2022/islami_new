@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      routes: {HomeScreen.routeName: (_) => HomeScreen()},
+      routes: {HomeScreen.routeName: (_) => const HomeScreen()},
       initialRoute: HomeScreen.routeName,
     );
   }
